@@ -1,0 +1,87 @@
+{% extends "header.html" %}
+
+{% block body %}
+
+  <section class="jumbotron text-center" style="background-color:#ffffff">
+    <div class="container">
+    <h1 class="display-4">Learn to Code <span style="font-size:12px; vertical-align: middle;">&#9632;</span> Build A Better Future</h1>
+      <p>&nbsp;</p>
+      <h2 class="mb-3">Step by step review guides to learn and practice coding. </h2>
+      <h2>Quiz to motivate, keep track and assess learning. </h2>
+      
+       
+    </div>
+  </section>
+
+
+<div class="album py-5">
+    <div class="container">
+    <div class="row" style="border: 0px solid black;">
+        <div class="row">
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          <a href="java">
+            <div class= "container rounded">
+             <img src="{{ url_for('static', filename='images/java.jpeg') }}" class="home-card-images">  
+            </div>
+            
+            <div class="card-body"> <!-- start of card body -->
+              <p class="card-text">Learn the object oriented programming concepts, data structures, control flows, exception handling and more.</p>
+              <div class="d-flex justify-content-between align-items-right">
+                  <button type="button" class="btn btn-warning">Start Learning</button>
+                 
+              </div>
+                
+            </div> <!-- end of card body -->
+          </a>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="python">
+                <div class= "container rounded">
+                 <img src="{{ url_for('static', filename='images/python.png') }}" class="home-card-images">  
+                </div>
+                
+                <div class="card-body"> <!-- start of card body -->
+                  <p class="card-text">Learn the object oriented programming concepts, data structures, control flows, exception handling and more.</p>
+                  <div class="d-flex justify-content-between align-items-right">
+                      <button type="button" class="btn btn-warning">Start Learning</button>
+                     
+                  </div>
+                    
+                </div> <!-- end of card body -->
+              </a>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="html-css">
+                <div class= "container rounded">
+                 <img src="{{ url_for('static', filename='images/html.png') }}" class="home-card-images">  
+                </div>
+                
+                <div class="card-body"> <!-- start of card body -->
+                  <p class="card-text">Learn the object oriented programming concepts, data structures, control flows, exception handling and more.</p>
+                  <div class="d-flex justify-content-between align-items-right">
+                      <button type="button" class="btn btn-warning">Start Learning</button>
+                     
+                  </div>
+                    
+                </div> <!-- end of card body -->
+            </a>
+          </div>
+        </div>
+
+       
+  </div>
+</div>
+</main>
+</html>
+
+{% endblock %}
