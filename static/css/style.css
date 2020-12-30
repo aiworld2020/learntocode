@@ -1,0 +1,15 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+.bg-image {
+    background-image: url('http://127.0.0.1:5000/static/images/datatypes.jpg');
+    border: 1px solid black;
+    
+
+}
